@@ -1,0 +1,5 @@
+<?php
+
+class Catelog {
+   private
+}
