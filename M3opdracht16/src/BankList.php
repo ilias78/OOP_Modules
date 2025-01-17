@@ -1,5 +1,7 @@
 <?php
 
+namespace M3opdracht16;
+
 class BankList
 {
     private array $bankAccounts = [];
@@ -9,16 +11,15 @@ class BankList
         $this->bankAccounts[] = $bankAccount;
     }
 
+/**
+ * @return array
+ */
+
     public function getAccounts(): array
     {
         return $this->bankAccounts;
     }
 
-    public function printAccounts(): void
-    {
-        foreach ($this->bankAccounts as $account) {
-            echo $account->getAccountDetails() . "<br>";
-        }
-    }
+    
 }
 

@@ -1,5 +1,7 @@
 <?php
 
+namespace M3opdracht17;
+
 class BankAccount
 {
     private string $accountNumber;
@@ -7,7 +9,7 @@ class BankAccount
     private float $balance;
     private string $accountType;
 
-    public function __construct(string $accountNumber, string $accountHolder, float $balance, string $accountType)
+    public function setAccount(string $accountNumber, string $accountHolder, float $balance, string $accountType): void
     {
         $this->accountNumber = $accountNumber;
         $this->accountHolder = $accountHolder;
@@ -20,20 +22,20 @@ class BankAccount
         $this->balance += $amount;
     }
 
-    public function withdraw(float $amount): void
+    public function withdraw(float $amount): string
     {
-        $this->balance -= $amount;
+        if ($this->balance > $amount) {
+            $this->balance -= $amount;
+            return "Geld opgenomen";
+        } else {
+            return "Onvoldoende geld op de rekening.<br>";
+        }
     }
 
     public function getBalance(): float
     {
         return $this->balance;
     }
-
-    public function getAccountDetails(): string
-    {
-        return "Account Number: {$this->accountNumber}, Holder: {$this->accountHolder}, Balance: {$this->balance}, Type: {$this->accountType}";
-    }
 }
-?>
+
 
