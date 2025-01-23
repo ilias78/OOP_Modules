@@ -1,0 +1,15 @@
+{
+    "name": "ilias/m3opdracht22",
+    "autoload": {
+        "psr-4": {
+            "M3opdracht22\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ilias78",
+            "email": "9022530@student.zadkine.nl"
+        }
+    ],
+    "require": {}
+}
