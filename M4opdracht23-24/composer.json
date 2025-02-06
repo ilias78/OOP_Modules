@@ -2,7 +2,7 @@
     "name": "ilias/m4opdracht25-26",
     "autoload": {
         "psr-4": {
-            "Ilias\\M4opdracht2526\\": "src/"
+            "M4opdracht2526\\": "src/"
         }
     },
     "authors": [
