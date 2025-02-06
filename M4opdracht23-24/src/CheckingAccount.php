@@ -1,9 +1,9 @@
 <?php
 
-namespace M4opdracht2526;
+namespace M4opdracht2324;
 
 
-use M4opdracht2526\BankAccount;
+use M4opdracht2324\BankAccount;
 
 class CheckingAccount extends BankAccount
 {

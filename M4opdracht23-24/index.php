@@ -6,10 +6,10 @@ require_once('src/CheckingAccount.php');
 require_once('src/SavingsAccount.php');
 
 
-use M4opdracht2526\BankAccount;
-use M4opdracht2526\BankList;
-use M4opdracht2526\CheckingAccount;
-use M4opdracht2526\SavingsAccount;
+use M4opdracht2324\BankAccount;
+use M4opdracht2324\BankList;
+use M4opdracht2324\CheckingAccount;
+use M4opdracht2324\SavingsAccount;
 
 $bankList = new BankList();
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace M4opdracht2526;
+namespace M4opdracht2324;
 
 class BankAccount
 {
