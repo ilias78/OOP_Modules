@@ -2,9 +2,9 @@
 
 namespace M4opdracht2526;
 
-use M4opdracht2526\BankAccount;         
-use M4opdracht2526\SavingsAccount;
-use M4opdracht2526\CheckingAccount;
+// use M4opdracht2526\BankAccount;         
+// use M4opdracht2526\SavingsAccount;
+// use M4opdracht2526\CheckingAccount;
 
 
 class BankList

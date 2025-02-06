@@ -1,9 +1,12 @@
 <?php
 // require_once('vendor/autoload.php');
-require_once('src/BankAccount.php');
-require_once('src/BankList.php');
-require_once('src/CheckingAccount.php');
-require_once('src/SavingsAccount.php');
+
+require_once('M4opdracht2526/BankAutoloader.php');
+
+// require_once('src/BankAccount.php');
+// require_once('src/BankList.php');
+// require_once('src/CheckingAccount.php');
+// require_once('src/SavingsAccount.php');
 
 
 use M4opdracht2526\BankAccount;
