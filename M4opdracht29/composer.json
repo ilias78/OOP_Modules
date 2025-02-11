@@ -1,0 +1,17 @@
+{
+    "name": "ilias/m4opdracht29",
+    "autoload": {
+        "psr-4": {
+            "M4opdracht29\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ilias78",
+            "email": "9022530@student.zadkine.nl"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "*"
+    }
+}
