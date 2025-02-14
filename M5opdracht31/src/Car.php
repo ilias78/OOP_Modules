@@ -23,4 +23,5 @@ class car extends Vehicle
         return parent::printVehicleInfo() . "<br>Sit Places: " . $this->sitPlaces;
     }
     
+    
 }
