@@ -1,8 +1,8 @@
 {
-    "name": "ilias/m5opdracht32",
+    "name": "ilias/m5opdracht33",
     "autoload": {
         "psr-4": {
-            "Ilias\\M5opdracht32\\": "src/"
+            "M5opdracht33\\": "src/"
         }
     },
     "authors": [
